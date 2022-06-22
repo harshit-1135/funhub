@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/aae27bcfc8.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Songs</title>
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar  navbar-expand-xl navbar-dark" style="padding: 0 0 1rem;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MenuNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbarMenu">Menu</span>
+          </button>
+        <a class="navbar-brand" href="index.html"><img src="images/Michelle.png" alt="" height="40px" width="40px"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contactAndAbout" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+     <div class="collapse navbar-collapse" id="MenuNavbar">
+        <ul class="navbar-nav mr-auto" >
+            <li class="nav-item">
+                <a class="nav-link" href="movies.html" >Movies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Songs</a>
+            </li>
+            
+            <li class="nav-item">
+                <div class="dropdown">
+                <a class="nav-link dropbtn">Kids <i class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown-content rounded">
+                  <a href="games.html">Games</a>
+                  <a href="Mathquiz.html">Maths Quiz</a>
+                  <a href="gkquiz.html">G.K. Quiz</a>
+                </div>
+                </div>
+            </li>
+      </ul>
+     </div>
+     <div class="collapse navbar-collapse" id="contactAndAbout">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="file:index.html#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+      </ul>
+     </div>
+    </nav>
+    <h1 class="Songs-page-heading">Songs <i class="fa-solid fa-music"></i></h1>
+</div>
+<section id="top-releases">
+    <h3 class="movies-page-heading">Latest releases<i class="fa-solid fa-clapperboard-play"></i> <i class="fa-solid fa-angle-right songs-hover" style="margin:5px;"></i></h3>
+    <div id="latest-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <div class="card" >
+                
+                <div class="card-body movies-body"> -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/nvm drake.jpg" class="card-img-top" alt="Honestly,nevermind">
+                        <div class="card-body">
+                          <h5 class="card-title songs-card-title">Honestly , Nevermind</h5>
+                          <a href="https://open.spotify.com/album/2hicq6IKmDsPxZV7fJablX?si=JKDLWsANQUW0OKOU4FnXew" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                          <a href="https://youtu.be/q1UbJwyRrwE" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/through the flames.jpg" class="card-img-top" alt="through the flames">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Through the flames.</h5>
+                              <a href="https://open.spotify.com/track/5ce6iDwTt5IP4nNI3qw1Xj?si=a17e0d0a08f7499a" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/Xxd7c1nfsq4" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/samurai.jpg" class="card-img-top" alt="samurai">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Samurai</h5>
+                                  <a href="https://open.spotify.com/track/0BSrqIp5HDddDIpsuRO9r9?si=09b514a55c2b41ff" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/CxkAnDen1I4" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+
+                                </div>
+                              </div>
+                    </div>
+                </div>
+              <!-- </div>
+              </div> -->
+              <div class="carousel-item">
+                
+                <!-- <div class="card" >
+                    
+                    <div class="card-body movies-body"> -->
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/aazma le.jpg" class="card-img-top" alt="aazma le">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Aazma Le</h5>
+                              <a href="https://open.spotify.com/track/1X1aKjG5Au5Fj5DnDc14pm?si=35b684d064604c6d" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/Z71k9rfJQ1c" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/2step.jpg" class="card-img-top" alt="2step">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">2step</h5>
+                                  <a href="https://open.spotify.com/track/1vf09n9QoDVWhBImRgQQyG?si=42e1e9e0737848a0" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/Nr7fRBldXUU" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                              <br>
+                              <div class="col-md-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="images/luv hurtin.jpg" class="card-img-top" alt="luv hurtin">
+                                    <div class="card-body">
+                                      <h5 class="card-title songs-card-title">Luv Hurtin</h5>
+                                      <a href="https://open.spotify.com/track/4qE2EiLQhYQN7zZJpl9fSO?si=ea7477b2b2474ee4" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                      <a href="https://youtu.be/wyqyHWfrzFA" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div>
+                </div> -->
+                <a class="carousel-control-prev" href="#latest-carousel" role="button" data-slide="prev"style="height: 50px; width: 40px">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                  <a class="carousel-control-next" href="#latest-carousel" role="button" data-slide="next" style="height: 50px; width: 40px">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                </div>    
+                <hr>
+</section>
+
+<section id="top-releases">
+    <h3 class="movies-page-heading">Trending<i class="fa-solid fa-clapperboard-play"></i> <i class="fa-solid fa-angle-right songs-hover" style="margin:5px;"></i></h3>
+    <div id="top-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <div class="card" >
+                
+                <div class="card-body movies-body"> -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/as it was.jpg" class="card-img-top" alt="As it was">
+                        <div class="card-body">
+                          <h5 class="card-title songs-card-title">As it was</h5>
+                          <a href="https://open.spotify.com/track/4Dvkj6JhhA12EX05fT7y2e?si=95079ebcfbe04c68" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                          <a href="https://youtu.be/H5v3kku4y6Q" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/running up that hill.jpg" class="card-img-top" alt="running up that hill">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Running up that hill</h5>
+                              <a href="https://open.spotify.com/track/75FEaRjZTKLhTrFGsfMUXR?si=80cc5532156c4b04" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/wp43OdtAAkM" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/heatwaves.jpg" class="card-img-top" alt="heatwaves">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Heatwaves</h5>
+                                  <a href="https://open.spotify.com/track/02MWAaffLxlfxAUY7c5dvx?si=e399a82f76d2465b" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/mRD0-GxqHVo" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+              <!-- </div>
+              </div> -->
+              <div class="carousel-item">
+                
+                <!-- <div class="card" >
+                    
+                    <div class="card-body movies-body"> -->
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/as it was.jpg" class="card-img-top" alt="Late night talking">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Late night talking</h5>
+                              <a href="https://open.spotify.com/track/1qEmFfgcLObUfQm0j1W2CK?si=20a65051a0874c5f" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/RwT77rlp2CE" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/yet to come.jpg" class="card-img-top" alt="yet to come">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Yet to come</h5>
+                                  <a href="https://open.spotify.com/track/10SRMwb9EuVS1K9rYsBfHQ?si=b9e165f4579c4afb" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/kXpOEzNZ8hQ" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                              <br>
+                              <div class="col-md-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="images/glimpse of us.jpg" class="card-img-top" alt="glimpse of us">
+                                    <div class="card-body">
+                                      <h5 class="card-title songs-card-title">Glimpse of us</h5>
+                                      <a href="https://open.spotify.com/track/6xGruZOHLs39ZbVccQTuPZ?si=4a2d8d2c7ebe4f6b" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                      <a href="https://youtu.be/NgsWGfUlwJI" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div>
+                </div> -->
+                <a class="carousel-control-prev" href="#top-carousel" role="button" data-slide="prev"style="height: 50px; width: 40px">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                  <a class="carousel-control-next" href="#top-carousel" role="button" data-slide="next" style="height: 50px; width: 40px">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                </div>    
+                <hr>
+</section>
+<section id="top-releases">
+    <h3 class="movies-page-heading">Hip-Hop<i class="fa-solid fa-clapperboard-play"></i> <i class="fa-solid fa-angle-right songs-hover" style="margin:5px;"></i></h3>
+    <div id="fiction-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <div class="card" >
+                
+                <div class="card-body movies-body"> -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/pills on my mind.jpg" class="card-img-top rounded" alt="Pills on my mind">
+                        <div class="card-body">
+                          <h5 class="card-title songs-card-title">Pills on my mind</h5>
+                          <a href="https://open.spotify.com/track/7aMi9l35SfoDwfxNbFsGbg?si=55912ef29b22415a" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                          <a href="https://youtu.be/ZVQ4cFvCc7I" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/ram ya raheem.jpg" class="card-img-top rounded"  alt="Ram ya raheem?">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Ram ya raheem?</h5>
+                              <a href="https://open.spotify.com/track/4YAfDAlb3F7uUpMKbYeIe8?si=a8d534e69aed41db" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/lAgArzXo4TE" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/superman.jpg" class="card-img-top" alt="Superman">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Superman</h5>
+                                  <a href="https://open.spotify.com/track/7kCXrXVp7ZSKYKhNeP10Ca?si=42c3985d1c164c19" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/lB5yq7hHnig" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+              <!-- </div>
+              </div> -->
+              <div class="carousel-item">
+                
+                <!-- <div class="card" >
+                    
+                    <div class="card-body movies-body"> -->
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/superman.jpg" class="card-img-top" alt="proud">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Proud</h5>
+                              <a href="https://open.spotify.com/track/1nyHIaNtThYp6zUQh7aCaJ?si=f22b36f8c8f84521" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/YmogNl1MMNA" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/Image-raa.jpg" class="card-img-top" alt="Image">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Image</h5>
+                                  <a href="https://open.spotify.com/track/3e4y90wdEQx1iUAOdc8jiP?si=f7bf011909654e48" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/i9VlGtGum0E" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                              <br>
+                              <div class="col-md-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="images/kohinoor.jpg" class="card-img-top" alt="Kohinoor">
+                                    <div class="card-body">
+                                      <h5 class="card-title songs-card-title">Kohinoor</h5>
+                                      <a href="https://open.spotify.com/track/1VYMsDdZ3toHtlZxAGS95n?si=f80cbe25c0534c59" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                      <a href="https://youtu.be/7dt9LvdSdIA" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div>
+                </div> -->
+                <a class="carousel-control-prev" href="#fiction-carousel" role="button" data-slide="prev"style="height: 50px; width: 40px">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                  <a class="carousel-control-next" href="#fiction-carousel" role="button" data-slide="next" style="height: 50px; width: 40px">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                </div>    
+                <hr>
+</section>
+<section id="top-releases">
+    <h3 class="movies-page-heading">Chill<i class="fa-solid fa-clapperboard-play"></i> <i class="fa-solid fa-angle-right songs-hover" style="margin:5px;"></i></h3>
+    <div id="romantic-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <div class="card" >
+                
+                <div class="card-body movies-body"> -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/baarishein.jpg" class="card-img-top" alt="baarishein">
+                        <div class="card-body">
+                          <h5 class="card-title songs-card-title">Baarishein</h5>
+                          <a href="https://open.spotify.com/track/5iCY0TXNImK4hyKfcplQsg?si=48a2021465b0498d" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                          <a href="https://youtu.be/PJWemSzExXs" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/alag aasmaan.jpg" class="card-img-top" alt="Alag Aasmaan">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Alag Aasmaan</h5>
+                              <a href="https://open.spotify.com/track/74kCarkFBzXYXNkkYJIsG0?si=119216f703164049" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+
+                              <a href="https://youtu.be/vA86QFrXoho" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/pal behta jaaye.jpg" class="card-img-top" alt="Pal Behta Jaaye">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Pal Behta Jaaye</h5>
+                                  <a href="https://open.spotify.com/track/0fIbPMXnTdyuW2UirA9mWQ?si=3c09d390fb1c4ee0" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/goPn5HAsNZo" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+              <!-- </div>
+              </div> -->
+              <div class="carousel-item">
+                
+                <!-- <div class="card" >
+                    
+                    <div class="card-body movies-body"> -->
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/sun lo na.jpg" class="card-img-top" alt="Sun Lo Na">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Sun lo na</h5>
+                              <a href="https://open.spotify.com/track/3DWkYRm35UkcM1V0icj6lo?si=f3b5f7739df645b8" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/tAPVdPLCvYU" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/aasmaan.jpg" class="card-img-top" alt="aasmaan">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Aasmaan</h5>
+                                  <a href="https://open.spotify.com/track/6V8TEMSeGNlVuVjzdGI0Sc?si=c6b8191b1b0c451d" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/4cQcQhw5w_g" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                              <br>
+                              <div class="col-md-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="images/waqt ki baatein.jpg" class="card-img-top" alt="waqt ki baatein">
+                                    <div class="card-body">
+                                      <h5 class="card-title songs-card-title">Waqt ki baatein</h5>
+                                      <a href="https://open.spotify.com/track/1lIYP8fDGGnp91OMTUnwjV?si=e2c718c39dc6406e" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                      <a href="https://youtu.be/b-K4oDRk04M" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div>
+                </div> -->
+                <a class="carousel-control-prev" href="#romantic-carousel" role="button" data-slide="prev"style="height: 50px; width: 40px">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                  <a class="carousel-control-next" href="#romantic-carousel" role="button" data-slide="next" style="height: 50px; width: 40px">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                </div>    
+                <hr>
+</section>
+<section id="top-releases">
+    <h3 class="movies-page-heading">Punjabi<i class="fa-solid fa-clapperboard-play"></i> <i class="fa-solid fa-angle-right songs-hover" style="margin:5px;"></i></h3>
+    <div id="comedy-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <div class="card" >
+                
+                <div class="card-body movies-body"> -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/no love.jpg" class="card-img-top" alt="No love">
+                        <div class="card-body">
+                          <h5 class="card-title songs-card-title">No Love</h5>
+                          <a href="https://open.spotify.com/track/5B4YQN1FCuADJ0o4phAtwC?si=06b2819fd7324c06" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                          <a href="https://youtu.be/6RrEQJNZwPQ" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/into you.jpg" class="card-img-top" alt="Into You">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Into You</h5>
+                              <a href="https://open.spotify.com/track/455OjhLhU9JCNYKKoUOFwr?si=864c8b28424e4c4b" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/YR4w-4BgKK8" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/spaceship.jpg" class="card-img-top" alt="spaceship">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Spaceship</h5>
+                                  <a href="https://open.spotify.com/track/2PcGqmKToUz0s65q1Acg7d?si=0ea2cdd562974584" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/RatDV50alQE" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                    </div>
+                </div>
+              <!-- </div>
+              </div> -->
+              <div class="carousel-item">
+                
+                <!-- <div class="card" >
+                    
+                    <div class="card-body movies-body"> -->
+                        <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/shinin.jpg" class="card-img-top" alt="Shinin'">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Shinin'</h5>
+                              <a href="https://open.spotify.com/track/1qrAgbcxQpeaDv4ptgjl9e?si=9b8d5516b8b740f2" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                              <a href="https://youtu.be/YjC9e05HUbY" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/adore.jpg" class="card-img-top" alt="adore">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Adore</h5>
+                                  <a href="https://open.spotify.com/track/4vz4lZFsbgVB7oZG126OyM?si=dc156124cb53477d" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                  <a href="https://youtu.be/WmcYncLmmAo" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                </div>
+                              </div>
+                              <br>
+                              <div class="col-md-12 col-lg-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="images/supna.jpg" class="card-img-top" alt="supna">
+                                    <div class="card-body">
+                                      <h5 class="card-title songs-card-title">Supna</h5>
+                                      <a href="https://open.spotify.com/track/4nPDrxKfiQBvZyz4m5dGm7?si=795c4ef433e04175" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a>
+                                      <a href="https://youtu.be/93qSJauWh5I" class="btn btn-outline-danger btn-sm youtube-btn">Listen it on youtube!!</a></div>
+                                    </div>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div>
+                </div> -->
+                <a class="carousel-control-prev" href="#comedy-carousel" role="button" data-slide="prev"style="height: 50px; width: 40px">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                  <a class="carousel-control-next" href="#comedy-carousel" role="button" data-slide="next" style="height: 50px; width: 40px">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    
+                  </a>
+                </div>    
+                <hr>
+</section>
+<section id="top-releases">
+    <h3 class="movies-page-heading">Playlists suggestion<i class="fa-solid fa-clapperboard-play"></i> <i class="fa-solid fa-angle-right songs-hover" style="margin:5px;"></i></h3>
+
+                    <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/feels.jpg" class="card-img-top" alt="feels">
+                        <div class="card-body">
+                          <h5 class="card-title songs-card-title">Feels</h5>
+                          <a href="https://open.spotify.com/playlist/7xZoJI7MJLdzB484HJzziM?si=ae99d4450fa14071" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a></div>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="col-md-12 col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="images/dard hours.jpg" class="card-img-top" alt="Dard hours">
+                            <div class="card-body">
+                              <h5 class="card-title songs-card-title">Dard Hours</h5>
+                              <a href="https://open.spotify.com/playlist/4WqSfKHaPeXLc5RawyEe9S?si=9c34043a8df44693" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a></div>
+                            </div>
+                          </div>
+                          <br>
+                          <div class="col-md-12 col-lg-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/top hits punjabi.jpg" class="card-img-top" alt="Top Hits Punjabi">
+                                <div class="card-body">
+                                  <h5 class="card-title songs-card-title">Top Hits Punjabi</h5>
+                                  <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk?si=2f20d94db7534f89" class="btn btn-outline-success btn-sm spotify-btn">Listen it on spotify!</a></div>
+                                </div>
+                              </div>
+                    </div>
+               
+                
+                <hr>
+</section>
+<footer id="footer">
+    <i class="fa-brands fa-twitter logos"></i>
+    <i class="fa-brands fa-facebook-f logos"></i>
+    <i class="fa-brands fa-instagram logos"></i>
+    <i class="fa-solid fa-envelope logos"></i>
+
+    <p class="copyright">© Copyright FunZone</p>
+
+  </footer>
+
+
+
+</body>
+</html>
